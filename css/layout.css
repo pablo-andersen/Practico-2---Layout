@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(180, 180, 90);
+    color: white;
+}
+
+.contenedor {   
+    width: 99%;
+    background-color: white;
+    padding: 0;
+}  
+
+div {
+    /*border: solid 1px black;*/
+    padding: 0px;
+    margin: 1px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+    align-content: space-between;
+    width: 99%;
+    min-height: 15px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.alinDer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.menu1 {
+    background-color: green;
+    width: 20%;
+    height: 15px;
+    order: 0;
+    flex: 0 1 auto;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.menu2 {
+    background-color: brown;
+    width: 60%;
+    height: 15px;
+}
+
+.logo {
+    background-color: blue;
+    justify-self: baseline;
+    width: 30%;
+    height: 15px;
+}
+
+.contenido {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linea1 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.divIzq {
+    background-color: grey;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.divCen {
+    background-color: turquoise;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.divDer {
+    background-color: orange;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.divIzq2 {
+    background-color: green;
+    width: 66%;
+    border-radius: 5px;
+}
+
+.divDer2 {
+    background-color: brown;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    width: 99%;
+    justify-content: flex-end;
+    background-color: lightseagreen;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.elemento {
+    background-color:midnightblue;
+    width: 32%;
+    height: 35px;
+}
